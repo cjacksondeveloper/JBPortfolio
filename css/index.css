@@ -1,0 +1,255 @@
+/*------------------------------------*\
+RESET
+\*------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0b1 | 201101 
+NOTE:WORK IN PROGRESS
+USE WITH CAUTION AND TEST WITH ABANDON */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: ’’;
+  content: none;
+}
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: Roboto, Arial, sans-serif;
+  background-color: #FFFFFF;
+  color: #222222;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #222222;
+}
+p,
+section {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #222222;
+}
+img {
+  width: 100%;
+}
+li {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #222222;
+}
+input,
+select {
+  margin-top: 5px;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+header .HeaderBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  background-color: #9BA5AF;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 16px 0;
+  z-index: 1;
+}
+header .HeaderBar h1 {
+  margin-left: 8.6%;
+  color: #FFFFFF;
+  font-size: 2.4rem;
+  font-weight: bold;
+  z-index: 3;
+}
+header .HeaderBar img {
+  box-sizing: content-box;
+  margin-right: 5%;
+  padding: 5px 3.6%;
+  width: 23px;
+}
+header .HeaderBar img:hover {
+  background-color: #222222;
+}
+header nav {
+  background-color: #9BA5AF;
+  position: fixed;
+  width: 100vw;
+  height: 0;
+  display: none;
+  top: 50px;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 3;
+  opacity: 0.95;
+}
+header a {
+  position: relative;
+  right: 95%;
+  font-size: 4.8rem;
+  line-height: 8.5rem;
+  color: #FFFFFF;
+  margin-left: 42%;
+  text-decoration: none;
+}
+@media (max-width:850px) {
+  header a {
+    margin-left: 33%;
+  }
+}
+@media (max-width:550px) {
+  header a {
+    margin-left: 28%;
+  }
+}
+header a:hover {
+  color: #222222;
+}
+header .Hamburger,
+header .CloseMenu {
+  z-index: 3;
+}
+header .ButtonToggle {
+  display: none;
+}
+header .NavToggle {
+  height: 100vh;
+}
