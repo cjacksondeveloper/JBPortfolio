@@ -1,0 +1,35 @@
+html,
+body {
+  font-family: Roboto, Arial, sans-serif;
+  background-color: #ffffff;
+  color: #222222;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #222222;
+}
+p,
+section {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #222222;
+}
+li {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #222222;
+}
+input,
+select {
+  margin-top: 5px;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
